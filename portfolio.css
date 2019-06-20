@@ -1,0 +1,202 @@
+body {
+    margin:0;
+    display: flex;
+    justify-content: center;
+    height:100%;
+  }
+html{
+    height: 100%;
+  }
+  
+  /* DEMO-SPECIFIC STYLES */
+h1 {
+    color: rgb(5, 223, 5);
+    text-align: center;
+    font-family: monospace;
+    font-size:60px;
+  }
+
+h2 {
+      padding-left:50px;
+  }
+
+  nav{
+      margin-top: 400px;
+  }
+i{
+    padding-right:40px;
+}
+
+#medias{
+    margin-left:20%;
+    padding-bottom: 75px;
+}
+
+  #terminal{
+    padding-top: 15%;
+    background-color: black;
+    width:100%;
+  }
+
+  .project{
+      width:350px;
+      height: 350px;
+      padding:10px;
+  }
+
+  
+  .typewriter h2{
+    font-size:48px;
+    width: 96%;
+    color:  rgb(5, 223, 5);
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid;
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+
+  #start {
+    padding-top:30px;
+    color: rgb(5, 223, 5);
+    text-align: center;
+    font-family: monospace;
+    font-size:24px;
+  }
+
+  #start:hover {
+    color:black;
+  }
+
+  #hover:hover{
+      background-color: rgb(5, 223, 5);
+  }
+
+  h3{
+    margin-left:2px;
+    position: absolute;
+    bottom: 20px;
+    padding: 15px;
+    margin-bottom: 0;
+    color:white;
+    text-align: center;
+    background-color:teal;
+    border-bottom: 0;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+.container{
+    padding-bottom:20px;
+}
+
+#portfolioTitle{
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-style: italic;
+}
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:green }
+  }
+
+@media screen and (max-width:1300px){
+    h1{
+        font-size:60px;
+    }
+    .typewriter h2{
+        font-size: 40px;
+    }
+    }
+
+@media screen and (max-width:1100px){
+    h1{
+        font-size:54px;
+        }
+    .typewriter h2{
+        font-size: 36px;
+        }
+    }
+
+@media screen and (max-width:900px){
+    #terminal{
+        padding-top:25%;
+    }        
+    h1{
+        font-size:40px;
+    }
+    .typewriter h2{
+        font-size: 28px;
+    }
+    .col-6{
+        width:100%;
+    }
+    }
+
+@media screen and (max-width:600px){
+    #terminal{
+        padding-top:40%;
+    }
+    h1{
+        font-size:28px;
+    }
+    h2{
+        padding-left:0px;
+    }
+    .typewriter h2{
+        font-size: 17px;
+    }
+    #bio{padding-top: 10px;}
+    .project{
+        width:475px;
+        height:475px;
+    }
+    }
+    [class*="col-"] {
+        width: 100%;
+      }
+      
+      @media only screen and (min-width: 600px) {
+        /* For tablets: */
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+      }
+      @media only screen and (min-width: 768px) {
+        /* For desktop: */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+      }
