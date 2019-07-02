@@ -38,6 +38,9 @@
                             <a id="about" class="nav-link"> About </a>
                         </li>
                         <li class="nav-item">
+                            <a id="skillset" class="nav-link"> Skill Set </a>
+                        </li>
+                        <li class="nav-item">
                             <a id="portfolio" class="nav-link"> Portfolio </a>
                         </li>
                         <li class="nav-item">
@@ -78,6 +81,47 @@
             <div class="row">
                 <hr style="width:100%;">
             </div>
+        </div>
+        <div id="skills" class="container" style="font-family: 'Montserrat', sans-serif;">
+            <div class="row">
+                <div class="col-12">
+                    <hr style="width:100%;">
+                    <h1 id="portfolioTitle">Skills</h2>
+                        <hr style="width:100%;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-s-12">
+                    <h4 style="text-align: center">Front-End Development</h4>
+                    <i class="fa fa-code" style="font-size:128px; margin-left: 30%"></i>
+                    <p style="text-align: justify;">I design and code clean, beautiful and responsive websties. I bring ideas to life using <strong>HTML, CSS, Javascript, JQuery, and React.js.</strong></p>
+                </div>
+                <div class="col-md-4 col-s-12">
+                    <h4 style="text-align: center">Back-End Development</h4>
+                    <i class="fa fa-server" style="font-size:128px; margin-left: 30%"></i>
+                    <p style="text-align: justify">I build sophisticated applications using databases and servers. I set up and mantain servers and databases using technologies such as <strong>Node.js, Express, MySql, and MongoDB</strong></p>
+                </div>
+                <div class="col-md-4 col-s-12">
+                    <h4 style="text-align: center">Analytics</h4>
+                    <i class="fa fa-line-chart" style="font-size:128px; margin-left: 30%"></i>
+                    <p style="text-align: justify">I analyze and process data into a simple and easy-to-understand form. I am experienced in using <strong>Analytics, Facebook Business, Shopify Analytics, and Instagram Insights.</strong> </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-s-12">
+                </div>
+                <div class="col-md-4 col-s-12">
+                    <h4 style="text-align: center">Project Management</h4>
+                    <i class="fa fa-users" style="font-size:128px; margin-left: 30%"></i>
+                    <p style="text-align: justify">I discuss with my peers each of our strengths and establish goals to work towards together. I keep everyone on the same page and set a reasonable pace in order to meet deadlines.</p>
+                </div>
+                <div class="col-md-4 col-s-12">
+                    <h4 style="text-align: center">Communication</h4>
+                    <i class="fa fa-commenting-o" style="font-size:128px; margin-left: 30%"></i>
+                    <p style="text-align: justify">I am friendly and easy to talk to. I can explain issues that I run into while working. I am great at listening to others and can give constructive feedback if needed.</p>
+                </div>
+            </div>
+            <hr style="width:100%">
         </div>
         <div id="projects" class="container" style="font-family: 'Montserrat', sans-serif;">
             <div class="row">
@@ -154,7 +198,7 @@
                 <div class="col-md-6 col-s-12">
                     <div class="row">
                         <p>If you are interested in contacting me, please use the form or email me at
-                            erikchan103@gmail.com. </br> Links to my Github, LinkedIn, and Resume are right below.
+                            erikchan103@gmail.com. </br> </br> Links to my Github, LinkedIn, and Resume are right below.
                         </p>
                     </div>
                     <div class="row" id="medias">
@@ -172,7 +216,8 @@
                 <div class="col-md-6 col-s-12">
                     <form action="mailto:erikchan103@gmail.com" method="post" enctype="text/plain">
                         Message:<br>
-                        <textarea class="form-control" name="comment" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" name="comment" id="exampleFormControlTextarea1"
+                            rows="3"></textarea>
                         <br>
                         <input type="submit" class="btn btn-primary" value="Send">
                         <input type="reset" class="btn btn-primary" value="Reset">
@@ -197,6 +242,12 @@
         $("#about").click(function () {
             $('html,body').animate({
                 scrollTop: $("#bio").offset().top
+            },
+                'slow');
+        });
+        $("#skillset").click(function () {
+            $('html,body').animate({
+                scrollTop: $("#skills").offset().top
             },
                 'slow');
         });
