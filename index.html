@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="portfolio.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="jquery-3.4.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -94,17 +103,22 @@
                 <div class="col-md-4 col-s-12">
                     <h4 style="text-align: center">Front-End Development</h4>
                     <i class="fa fa-code" style="font-size:128px; margin-left: 30%"></i>
-                    <p style="text-align: justify;">I design and code clean, beautiful and responsive websties. I bring ideas to life using <strong>HTML, CSS, Javascript, JQuery, and React.js.</strong></p>
+                    <p style="text-align: justify;">I design and code clean, beautiful and responsive websties. I bring
+                        ideas to life using <strong>HTML, CSS, Javascript, JQuery, and React.js.</strong></p>
                 </div>
                 <div class="col-md-4 col-s-12">
                     <h4 style="text-align: center">Back-End Development</h4>
                     <i class="fa fa-server" style="font-size:128px; margin-left: 30%"></i>
-                    <p style="text-align: justify">I build sophisticated applications using databases and servers. I set up and mantain servers and databases using technologies such as <strong>Node.js, Express, MySql, and MongoDB</strong></p>
+                    <p style="text-align: justify">I build sophisticated applications using databases and servers. I set
+                        up and mantain servers and databases using technologies such as <strong>Node.js, Express, MySql,
+                            and MongoDB</strong></p>
                 </div>
                 <div class="col-md-4 col-s-12">
                     <h4 style="text-align: center">Analytics</h4>
                     <i class="fa fa-line-chart" style="font-size:128px; margin-left: 30%"></i>
-                    <p style="text-align: justify">I analyze and process data into a simple and easy-to-understand form. I am experienced in using <strong>Analytics, Facebook Business, Shopify Analytics, and Instagram Insights.</strong> </p>
+                    <p style="text-align: justify">I analyze and process data into a simple and easy-to-understand form.
+                        I am experienced in using <strong>Analytics, Facebook Business, Shopify Analytics, and Instagram
+                            Insights.</strong> </p>
                 </div>
             </div>
             <div class="row">
@@ -113,12 +127,16 @@
                 <div class="col-md-4 col-s-12">
                     <h4 style="text-align: center">Project Management</h4>
                     <i class="fa fa-users" style="font-size:128px; margin-left: 30%"></i>
-                    <p style="text-align: justify">I discuss with my peers each of our strengths and establish goals to work towards together. I keep everyone on the same page and set a reasonable pace in order to meet deadlines.</p>
+                    <p style="text-align: justify">I discuss with my peers each of our strengths and establish goals to
+                        work towards together. I keep everyone on the same page and set a reasonable pace in order to
+                        meet deadlines.</p>
                 </div>
                 <div class="col-md-4 col-s-12">
                     <h4 style="text-align: center">Communication</h4>
                     <i class="fa fa-commenting-o" style="font-size:128px; margin-left: 30%"></i>
-                    <p style="text-align: justify">I am friendly and easy to talk to. I can explain issues that I run into while working. I am great at listening to others and can give constructive feedback if needed.</p>
+                    <p style="text-align: justify">I am friendly and easy to talk to. I can explain issues that I run
+                        into while working. I am great at listening to others and can give constructive feedback if
+                        needed.</p>
                 </div>
             </div>
             <hr style="width:100%">
@@ -133,54 +151,233 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-s-12 projectText">
-                    <a href="https://github.com/eunhyegina/projectAPI" target="_blank">
-                        <img src="images/eats.jpg" alt="starwarsgame" class="project image">
-                        <div class="overlay">
-                            <div class="text">eats.</div>
-                        </div>
-                    </a>
+                    <img src="images/eats.jpg" alt="eats" class="project image">
+                    <div class="overlay" data-toggle="modal" data-target="#eatsModal">
+                        <div class="text">eats.</div>
+                    </div>
                 </div>
                 <div class="col-md-4 col-s-12 projectText">
-                    <a href="https://github.com/maxtypesfast/ascend" target="_blank">
-                        <img src="images/ascend.jpg" alt="giphyApp" class="project">
-                        <div class="overlay">
-                            <div class="text">ascend</div>
-                        </div>
-                    </a>
+                    <img src="images/ascend.jpg" alt="ascend" class="project">
+                    <div class="overlay" data-toggle="modal" data-target="#ascendModal">
+                        <div class="text">ascend</div>
+                    </div>
                 </div>
                 <div class="col-md-4 col-s-12 projectText">
-                    <a href="https://github.com/gglinoga/kaizen" target="_blank">
-                        <img src="images/kaizen.png" alt="starwarsgame" class="project">
-                        <div class="overlay">
-                            <div class="text">kaizen</div>
-                        </div>
-                    </a>
+                    <img src="images/kaizen.png" alt="kaizen" class="project">
+                    <div class="overlay" data-toggle="modal" data-target="#kaizenModal">
+                        <div class="text">kaizen</div>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-s-12 projectText">
-                    <a href="https://github.com/erikchan103/unit-4-game" target="_blank">
-                        <img src="images/x-wing.jpg" alt="starwarsgame" class="project">
-                        <div class="overlay">
-                            <div class="text">Star Wars RPG</div>
-                        </div>
-                    </a>
+                    <img src="images/dating.jpg" alt="friendFriender" class="project">
+                    <div class="overlay" data-toggle="modal" data-target="#friendFinderModal">
+                        <div class="text">Friend Finder</div>
+                    </div>
                 </div>
                 <div class="col-md-4 col-s-12 projectText">
-                    <a href="https://github.com/erikchan103/giphyapiapp" target="_blank">
-                        <img src="images/giphy.jpg" alt="giphyApp" class="project">
-                        <div class="overlay">
-                            <div class="text">Giphy App</div>
-                        </div>
-                    </a>
+                    <img src="images/giphy.jpg" alt="giphyApp" class="project">
+                    <div class="overlay" data-toggle="modal" data-target="#giphyModal">
+                        <div class="text">GifTastic</div>
+                    </div>
                 </div>
                 <div class="col-md-4 col-s-12 projectText">
-                    <a href="https://github.com/erikchan103/TrainScheduler" target="_blank">
-                        <img src="images/trainTime.png" alt="trainGame" class="project">
-                        <div class="overlay">
-                            <div class="text">Train Scheduler</div>
+                    <img src="images/trainTime.png" alt="trainGame" class="project">
+                    <div class="overlay" data-toggle="modal" data-target="#trainModal">
+                        <div class="text">Train Scheduler</div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade bd-example-modal-lg" id="eatsModal" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">eats</h5>
                         </div>
-                    </a>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6 col-s-12">
+                                    <img src="images/eats.jpg" alt="eats" class="project image">
+                                </div>
+                                <div class="col-md-6 col-s-12">
+                                    <strong>Description:</strong>
+                                    <p>Eats is random lunch generator that uses the Yelp and Google Maps API in order to find a restaurant to eat at.</p>
+                                    <strong>Contributors: </strong>
+                                    <p>Greg Glinoga & Gina Yoo</p>
+                                    <p><a href="https://github.com/eunhyegina/projectAPI" target="_blank">Link
+                                            to
+                                            the Github.</a></p>
+                                    <p><a href="https://eunhyegina.github.io/projectAPI/" target="_blank">Link to
+                                            Deployed App.</a></p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade bd-example-modal-lg" id="ascendModal" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">ascend</h5>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6 col-s-12">
+                                    <img src="images/ascend.jpg" alt="ascend" class="project">
+                                </div>
+                                <div class="col-md-6 col-s-12">
+                                    <strong>Description:</strong>
+                                    <p>Ascend is a fullstack application where users can search and upload rock climbing
+                                        routes from rock climbing gyms. Users can use ascend's search query to look up
+                                        information on rock climbing gyms, setters, and routes. Users can also submit a
+                                        route to the database for other users to query.</p>
+                                    <strong>Contributors: </strong>
+                                    <p>Greg Glinoga, Zachary Drake & Max Ionita</p>
+                                    <p><a href="https://github.com/maxtypesfast/ascend" target="_blank">Link
+                                            to
+                                            the Github.</a></p>
+                                    <p><a href="https://mighty-forest-55054.herokuapp.com/" target="_blank">Link to
+                                            Deployed App.</a></p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade bd-example-modal-lg" id="kaizenModal" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">kaizen</h5>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6 col-s-12">
+                                    <img src="images/kaizen.png" alt="kaizen" class="project">
+                                </div>
+                                <div class="col-md-6 col-s-12">
+                                    <strong>Description:</strong>
+                                    <p>Kaizen is a training delivery platform in which allows users to select and
+                                        complete training programs.</p>
+                                    <strong>Contributors: </strong>
+                                    <p>Greg Glinoga & Katherine Hwang</p>
+                                    <p><a href="https://github.com/gglinoga/kaizen" target="_blank">Link
+                                            to
+                                            the Github.</a></p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade bd-example-modal-lg" id="friendFinderModal" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Friend Finder</h5>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6 col-s-12">
+                                    <img src="images/dating.jpg" alt="friendFriender" class="project">
+                                </div>
+                                <div class="col-md-6 col-s-12">
+                                    <strong>Description:</strong>
+                                    <p>FriendFinder matches the user to another user based on the results of the user's
+                                        answers to the personality quiz.</p>
+                                    <p>Contributors: N/A</p>
+                                    <p><a href="https://github.com/erikchan103/FriendFinder" target="_blank">Link
+                                            to
+                                            the Github.</a></p>
+                                    <p><a href="https://whispering-beyond-41369.herokuapp.com/" target="_blank">Link
+                                            to
+                                            the Deployed App.</a></p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade bd-example-modal-lg" id="giphyModal" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">GifTastic</h5>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6 col-s-12">
+                                    <img src="images/giphy.jpg" alt="giphyApp" class="project">
+                                </div>
+                                <div class="col-md-6 col-s-12">
+                                    <strong>Description:</strong>
+                                    <p>GifTastic makes use of the Giphy API and produce ten gifs based on search term of
+                                        the button. The user can add addtional search term buttons with the search
+                                        query.</p>
+                                    <p>Contributors: N/A</p>
+                                    <p><a href="https://github.com/erikchan103/giphyapiapp" target="_blank">Link to
+                                            the Github.</a></p>
+                                    <p><a href="https://erikchan103.github.io/giphyapiapp/" target="_blank">Link to
+                                            the Deployed App.</a></p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade bd-example-modal-lg" id="trainModal" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Train Scheduler</h5>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-6 col-s-12">
+                                    <img src="images/trainTime.png" alt="trainGame" class="project">
+                                </div>
+                                <div class="col-md-6 col-s-12">
+                                    <strong>Description:</strong>
+                                    <p>Train Scheduler uses Google Fire Base to create train schedules and keep them
+                                        on
+                                        a updated table.</p>
+                                    <p>Contributors: N/A</p>
+                                    <p><a href="https://github.com/erikchan103/TrainScheduler" target="_blank">Link
+                                            to
+                                            the Github.</a></p>
+                                    <p><a href="https://erikchan103.github.io/TrainScheduler/" target="_blank">Link
+                                            to
+                                            the Deployed App.</a></p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <hr style="width:100%">
@@ -198,7 +395,8 @@
                 <div class="col-md-6 col-s-12">
                     <div class="row">
                         <p>If you are interested in contacting me, please use the form or email me at
-                            erikchan103@gmail.com. </br> </br> Links to my Github, LinkedIn, and Resume are right below.
+                            erikchan103@gmail.com. </br> </br> Links to my Github, LinkedIn, and Resume are
+                            right below.
                         </p>
                     </div>
                     <div class="row" id="medias">
