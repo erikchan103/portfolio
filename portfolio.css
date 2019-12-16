@@ -49,7 +49,7 @@ i {
 
 
 .typewriter h2 {
-  font-size: 48px;
+  font-size: 3.2vw;
   width: 96%;
   color: rgb(5, 223, 5);
   font-family: monospace;
@@ -181,29 +181,17 @@ h3 {
   h1 {
     font-size: 84px;
   }
-
-  .typewriter h2 {
-    font-size: 64px;
-  }
 }
 
 @media screen and (max-width:1700px) {
   h1 {
     font-size: 72px;
   }
-
-  .typewriter h2 {
-    font-size: 56px;
-  }
 }
 
 @media screen and (max-width:1500px) {
   h1 {
     font-size: 60px;
-  }
-
-  .typewriter h2 {
-    font-size: 48px;
   }
 }
 
@@ -221,10 +209,6 @@ h3 {
   h1 {
     font-size: 54px;
   }
-
-  .typewriter h2 {
-    font-size: 36px;
-  }
 }
 
 @media screen and (max-width:900px) {
@@ -236,9 +220,6 @@ h3 {
     font-size: 40px;
   }
 
-  .typewriter h2 {
-    font-size: 28px;
-  }
 
   .col-6 {
     width: 100%;
@@ -258,9 +239,6 @@ h3 {
     padding-left: 0px;
   }
 
-  .typewriter h2 {
-    font-size: 17px;
-  }
 
   #bio {
     padding-top: 10px;
